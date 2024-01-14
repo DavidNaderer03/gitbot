@@ -6,16 +6,31 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet-version: [ '3.1.x', '7.0.x' ]
-
     steps:
-      - uses: actions/checkout@v4
-      - name: Setup dotnet ${{ matrix.dotnet-version }}
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: ${{ matrix.dotnet-version }}
-      # You can test your matrix by printing the current dotnet version
-      - name: Display dotnet version
-        run: dotnet --version
+    - uses: actions/checkout@v4
+    - name: Setup dotnet
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0.x'
+    - name: Install Newtonsoft.Json
+      run: |
+        dotnet add package Newtonsoft.Json --version 12.0.1
+        dotnet restore
+    - name: Install dependencies
+      run: |
+        dotnet add package DSharpPlus --version 4.1.0
+        dotnet restore
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup dotnet
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.0.x'
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build
+    - name: Test with the dotnet CLI
+      run: dotnet test
