@@ -1,0 +1,17 @@
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\config.json
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\pair.csv
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\scouts.csv
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DiscordBot.exe
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DiscordBot.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DiscordBot.deps.json
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DiscordBot.runtimeconfig.json
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DiscordBot.pdb
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\ConcurrentCollections.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DSharpPlus.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DSharpPlus.CommandsNext.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DSharpPlus.Interactivity.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\DSharpPlus.SlashCommands.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\david\DiscordBot\bin\Release\net7.0\publish\Newtonsoft.Json.dll

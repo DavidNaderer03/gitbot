@@ -1,0 +1,1 @@
+[ChoiceProvider(typeof(DiscordBot.Utils.ChoiceProvider))]
