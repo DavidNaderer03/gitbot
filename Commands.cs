@@ -16,7 +16,6 @@ namespace DiscordBot
         {
             await context.Channel.SendMessageAsync(ct);
         }
-
         [Command("scout")]
         public async Task WriteScout(CommandContext context)
         {

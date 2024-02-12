@@ -45,7 +45,6 @@ namespace DiscordBot
             [ChoiceProvider(typeof(DiscordBot.Utils.ChoiceProvider))]
             [Option("name", "The name of the scout")] string name)
         {
-
             await context.CreateResponseAsync(DSharpPlus.InteractionResponseType.ChannelMessageWithSource, new DiscordInteractionResponseBuilder()
                 .WithContent("..."));
             if (Program.Reader.Structor.Validid.Any(x => x == context.User.Id.ToString()))
